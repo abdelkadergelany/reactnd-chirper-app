@@ -10,5 +10,6 @@ export function handleInitialData () {
         dispatch(receiveTweets(tweets))
         dispatch(setAuthedUser(AUTHED_ID))
       })
+      
   }
 } 
